@@ -1,0 +1,66 @@
+/* CSS */
+body {
+  text-align: center;
+  background-color: #fefaf7;
+}
+
+.welcome-div {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+h1 {
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+p {
+  margin-top: 50px;
+  font-size: px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+#giftImage {
+  margin-top: 5%;
+  width: 100%;
+}
+
+#nameInput {
+  margin-top: 5rem;
+}
+
+.submission {
+  display: grid;
+  place-items: center; /* Center horizontally and vertically */
+}
+
+#submitButton {
+  margin-top: 4rem;
+  padding: 10px 20px;
+  background-color: #c84152;
+  color: white;
+  box-shadow: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+#submitButton:hover {
+  background-color: darkred;
+}
+
+#giftMessage {
+  margin-top: 3rem;
+}
